@@ -40,30 +40,64 @@ And it wasn't Ward's fault, it was ours, we individually, introduced the signifi
 ## The Mind Shift
 
 The first thing you have to do when you feel lost is to calm down and look around to find some references. Going back to the "industry" and "not-quite-right" we can find some "intersections".  
-Other industries produce "not-quite-right" stuff along with "the-right" one and the term is **industrial waste**; it can be environmentally friendly,recyclable, sellable, lightly toxic or extremely poisonous and radioactive but they all generate some kind of sub-product during the manufacturing process and they all had to learn to deal with it by law in most cases.  
-At this point it becomes crystal clear that **the natural sub-product of the software industry IS TECH-DEBT**. The TTM has mutated from a per-year basis to a per-sprint; the technology also evolves at a thrilling pace; all this means that we're producing an incredible amount of waste, blame the market, the managers, the FOMO related to the tech trends, but eve if I produce the best code today, tomorrow it might be legacy/incorrect/deprecated and that's for the green field only, we're not even including existing legacy code in the equation.
+Other industries produce "not-quite-right" stuff along with "the-right-one" and the term is **industrial waste**; it can be environmentally friendly,recyclable, sellable, lightly toxic or extremely poisonous and radioactive but they all generate some kind of sub-product during the manufacturing process and they all had to learn to deal with it by law in most cases.  
+At this point it becomes crystal clear that **the natural sub-product of the software industry IS TECH-DEBT**. The TTM has mutated from a per-year basis to a per-sprint; the technology also evolves at a thrilling pace; all this means that we're producing an incredible amount of waste, blame the market, the managers, the FOMO related to the tech trends, but even if I produce the best code today, tomorrow it might be legacy/incorrect/deprecated and that's for the green field only, we're not even including existing legacy code in the equation.
+
+Our work permeates almost everything around us, from the most trivial mobile app and up to medical devices, transportation and aerospace industries; this is a huge responsibility, so being systematic and thoughtful on how we prepare our work to be easy to maintain and fix will make the difference between a bad day and a life.
 
 ## The Plan
 
-Now what? We detected a glitch but what can we do about it?  
-BEING INTENTIONAL.  
-It means, let's accept the waste as part of our job and include it in the equation, like a carpenter considers shavings as part of making a beautiful wooden work and does something about it every day, otherwise the carpentry will soon be covered with shavings.
+So now what? We detected a glitch but what can we do about it? 
+
+**BE INTENTIONAL**  
+
+And by intentional I mean to do something about it every day through a strict protocol.  
 
 ### Preparation
 
 #### 1. Analysis
 
+##### Code Analysis
+
+It can be done manually, through developer tools or through automated tools, but all existing code, old or new, should be analyzed. An iterative process must be defined and followed by every team and the output captured in a backlog.
+
+##### Metrics
+
+This will highly affected by the development process and the technologies involved but metrics are the key to understand the big picture in many ways, e.g. very high level, if you divide `(total commits / bug-fix commits) * 100` you'll obtain a defect commit rate. Many insightful numbers can be obtained through metrics, but of course, to have metrics you have to generate them somehow, If you're now sure about what to measure just start measuring something, the ideas may come together with the numbers.
+
 #### 2. Knowledge Base
 
+##### Wiki
+
+There's no point for Analysis if it's not captured on a knowledge base, a project MUST have a wiki.
+
+##### Design protocols
+
+Unless captured at company level, design and write down protocols for common tasks in a concise way, too many or too few rules will tend to produce more mistakes during execution.
+
 #### 3. Tooling
+
+The result of analysis and knowledge base should produce some kind of tooling. This tools can be for assisting step 1 and 2 or to assist on step 4. Be intentional on investing time and resources to build tools for the "manufacturing" process.
 
 ### Execution
 
 #### 4. Collection
 
+All insights produced during preparation should be collected, sorted, validated and organized in a backlog; an empty or inexistent tech-debt backlog is a big sign of waste accumulation.
+
+Organize your backlog in an intentional data-centric source of data, you'll have to see the numbers to make better decisions on each step of the cycle.
+
 #### 5. Distribution
 
+Here's where your sprint planning shines, you have the analysis, the protocols, the tools and the material; plan around it all, allocate time and resources and distribute the work.
+
+Generate and use metrics for this so to share the tech-debt processing tasks in a sustainable way for your people and your business, this shouldn't create tension or burn out anybody but it has to be constantly captured as part of the daily work for a team.
+
 #### 6. Processing
+
+And here's where all the previous work collapse into a concrete code action by being recycled (if useful for other purposes), refactored, fixed, deprecated or disposed and annotations get added for the next cycle.
+
+Also here, metrics can be extremely useful, how much code needed to be refactored, fixed, deprecated? why? was it old or a recently created code?
 
 ### Prevention
 
