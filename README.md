@@ -55,17 +55,17 @@ And by intentional I mean to do something about it every day through a strict pl
 
 - **Operational Cycle**
   - Preparation
-    1. [Analysis](#1-analysis)
-    2. [Knowledge Base](#2-knowledge-base)
-    3. [Tooling](#3-tooling)
+    - [1. Analysis](#1-analysis)
+    - [2. Knowledge Base](#2-knowledge-base)
+    - [3. Tooling](#3-tooling)
   - Execution
-    4. [Collection](#4-collection)
-    5. [Distribution](#5-distribution)
-    6. [Processing](#6-processing)
+    - [4. Collection](#4-collection)
+    - [5. Distribution](#5-distribution)
+    - [6. Processing](#6-processing)
 - **Strategic Cycle**
-  7. [Prevention](#7-prevention)
-  8. [Audit](#8-audit)
-  9. [R&D](#9-rd)
+  - [7. Prevention](#7-prevention)
+  - [8. Audit](#8-audit)
+  - [9. R&D](#9-rd)
 
 ### Preparation
 
@@ -127,4 +127,3 @@ The auditing activity is **interrelated** with the [Preparation](#preparation) a
 - Can this be abstracted as a standard?
 
 The R&D activity affects both the [Preparation](#preparation) and the [Execution](#execution) areas of the life-cycle.
-
