@@ -47,60 +47,84 @@ Our work permeates almost everything around us, from the most trivial mobile app
 
 ## The Plan
 
-So now what? We detected a glitch but what can we do about it? 
+So now what? We detected a glitch but what can we do about it?  
 
 **BE INTENTIONAL**  
 
-And by intentional I mean to do something about it every day through a strict protocol.  
+And by intentional I mean to do something about it every day through a strict plan. The plan is defined by **9 sustainment principles** which are both **independent** and **interrelated**.
+
+- **Operational Cycle**
+  - Preparation
+    1. [Analysis](#1-analysis)
+    2. [Knowledge Base](#2-knowledge-base)
+    3. [Tooling](#3-tooling)
+  - Execution
+    4. [Collection](#4-collection)
+    5. [Distribution](#5-distribution)
+    6. [Processing](#6-processing)
+- **Strategic Cycle**
+  7. [Prevention](#7-prevention)
+  8. [Audit](#8-audit)
+  9. [R&D](#9-rd)
 
 ### Preparation
 
+Every output here should be designed to iteratively improve the [execution](#execution) group.
+
 #### 1. Analysis
 
-##### Code Analysis
+**Code Analysis** can be done manually, through developer tools or through automated tools, but all existing code, old or new, should be analyzed. An iterative process must be defined and followed by every team and the output captured in a backlog.
 
-It can be done manually, through developer tools or through automated tools, but all existing code, old or new, should be analyzed. An iterative process must be defined and followed by every team and the output captured in a backlog.
-
-##### Metrics
-
-This will highly affected by the development process and the technologies involved but metrics are the key to understand the big picture in many ways, e.g. very high level, if you divide `(total commits / bug-fix commits) * 100` you'll obtain a defect commit rate. Many insightful numbers can be obtained through metrics, but of course, to have metrics you have to generate them somehow, If you're now sure about what to measure just start measuring something, the ideas may come together with the numbers.
+**Metrics** will highly affected by the development process and the technologies involved but metrics are the key to understand the big picture in many ways, e.g. very high level, if you divide `(total commits / bug-fix commits) * 100` you'll obtain a defect commit rate. Many insightful numbers can be obtained through metrics, but of course, to have metrics you have to generate them somehow, If you're now sure about what to measure just start measuring something, the ideas may come together with the numbers.
 
 #### 2. Knowledge Base
 
-##### Wiki
+There's no point for Analysis if it's not captured on a knowledge base, **a project MUST have a wiki**.
 
-There's no point for Analysis if it's not captured on a knowledge base, a project MUST have a wiki.
-
-##### Design protocols
-
-Unless captured at company level, design and write down protocols for common tasks in a concise way, too many or too few rules will tend to produce more mistakes during execution.
+Unless captured at company level, **design and write down protocols** for common tasks in a concise way, too many or too few rules will tend to produce more mistakes during execution.
 
 #### 3. Tooling
 
-The result of analysis and knowledge base should produce some kind of tooling. This tools can be for assisting step 1 and 2 or to assist on step 4. Be intentional on investing time and resources to build tools for the "manufacturing" process.
+The result of analysis and knowledge base should **produce some kind of tooling**. This tools can be for assisting step 1 and 2 or to assist on step 4. Be intentional on investing time and resources to build tools for the "manufacturing" process.
 
 ### Execution
 
+Every output here should be designed to iteratively plan and manufacture the product.
+
 #### 4. Collection
 
-All insights produced during preparation should be collected, sorted, validated and organized in a backlog; an empty or inexistent tech-debt backlog is a big sign of waste accumulation.
+All insights produced during preparation **should be collected, sorted, validated and organized in a backlog**; an empty or inexistent tech-debt backlog is a big sign of waste accumulation.
 
-Organize your backlog in an intentional data-centric source of data, you'll have to see the numbers to make better decisions on each step of the cycle.
+Organize your backlog in an **intentional data-centric source of data**, you'll have to see the numbers to make better decisions on each step of the cycle.
 
 #### 5. Distribution
 
-Here's where your sprint planning shines, you have the analysis, the protocols, the tools and the material; plan around it all, allocate time and resources and distribute the work.
+Here's where your **sprint planning** shines, you have the analysis, the protocols, the tools and the material; plan around it all, allocate time and resources and distribute the work.
 
-Generate and use metrics for this so to share the tech-debt processing tasks in a sustainable way for your people and your business, this shouldn't create tension or burn out anybody but it has to be constantly captured as part of the daily work for a team.
+**Generate and use metrics** for this so to share the tech-debt processing tasks in a sustainable way for your people and your business, this shouldn't create tension or burn out anybody but it has to be constantly captured as part of the daily work for a team.
 
 #### 6. Processing
 
-And here's where all the previous work collapse into a concrete code action by being recycled (if useful for other purposes), refactored, fixed, deprecated or disposed and annotations get added for the next cycle.
+And here's where **all the previous work collapse into a concrete code** action by being recycled (if useful for other purposes), refactored, fixed, deprecated or disposed and annotations get added for the next cycle.
 
-Also here, metrics can be extremely useful, how much code needed to be refactored, fixed, deprecated? why? was it old or a recently created code?
+Also here, **metrics** can be extremely useful, how much code needed to be refactored, fixed, deprecated? why? was it old or a recently created code?
 
-### Prevention
+### 7. Prevention
 
-### Audit
+As in every industry, minimizing the waste production during manufacturing is a game changer. The prevention principle is **interrelated** with the [Execution](#execution) area of the life-cycle.
 
-### R&D
+### 8. Audit
+
+- Train specialists
+- Audit the code AND the processes
+
+The auditing activity is **interrelated** with the [Preparation](#preparation) area of the life-cycle.
+
+### 9. R&D
+
+- Can we produce less waste?
+- Can all this framework be replicable?
+- Can this be abstracted as a standard?
+
+The R&D activity affects both the [Preparation](#preparation) and the [Execution](#execution) areas of the life-cycle.
+
