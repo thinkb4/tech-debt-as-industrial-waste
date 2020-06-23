@@ -2,8 +2,8 @@
 
 ## Introduction
 
-– Let's talk about **TECH-DEBT**
-– That thing again? **WHY?!**
+– Let's talk about **TECH-DEBT**  
+– That thing again? **WHY?!**  
 
 Do you find yourself in this conversation? (－‸ლ) **EXACTLY!**  Unfortunately, we tend to adapt to discomfort and without finding a solution to common a pain we end up ignoring the ringing alarm for good.  
 I've seen this repeating pattern many times in my career especially when dealing with TECH-DEBT, so I started walking backwards to try to understand why, after so many years, this is still an issue.
@@ -109,18 +109,20 @@ And here's where **all the previous work collapse into a concrete code** action 
 
 Also here, **metrics** can be extremely useful, how much code needed to be refactored, fixed, deprecated? why? was it old or a recently created code?
 
-### 7. Prevention
+### Strategic cycle
+
+#### 7. Prevention
 
 As in every industry, minimizing the waste production during manufacturing is a game changer. The prevention principle is **interrelated** with the [Execution](#execution) area of the life-cycle.
 
-### 8. Audit
+#### 8. Audit
 
 - Train specialists
 - Audit the code AND the processes
 
 The auditing activity is **interrelated** with the [Preparation](#preparation) area of the life-cycle.
 
-### 9. R&D
+#### 9. R&D
 
 - Can we produce less waste?
 - Can all this framework be replicable?
