@@ -1,22 +1,17 @@
 # TECH-DEBT AS WASTE MANAGEMENT IN SOFTWARE INDUSTRY
 
-<div>
-<div  style="width:300px; float:right; margin:0 0 0 20px ">
-<img src="assets/frustrated.png" />
-
-*Photo by [Sebastian Herrmann](https://unsplash.com/photos/jzTQVxCyKYs) on [Unsplash](https://unsplash.com/)*
-</div>
-
 – Let's talk about **TECH-DEBT**  
 – That thing again? **WHY?!**  
 
 Do you find yourself in this conversation? (－‸ლ) **EXACTLY!**  
 
+<img src="assets/frustrated.png" />
+
+*Photo by [Sebastian Herrmann](https://unsplash.com/photos/jzTQVxCyKYs) on [Unsplash](https://unsplash.com/)*
+
 Unfortunately, we tend to adapt to discomfort and, without finding a solution to a chronic pain, we end up ignoring the ringing alarm for good.  
 
 I've seen this repeating pattern many times in my career especially when dealing with TECH-DEBT, so I started walking backwards trying to understand why, after so many years, this is still an issue.
-
-</div>
 
 Let's start with some history first.
 
