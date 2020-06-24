@@ -22,7 +22,7 @@ In 1992 the amazing [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunning
 
 ### The adoption
 
-It took some time, but gradually the whole software engineering community adopted the term, the metaphor and the idea behind the words, building different strategies and protocols behind the **debt-acquisition** and **debt-payment** dynamics, but yet, we're still here talking about that, frustrated and uncomfortable with the whole thing, and THERE is were I stopped and detected a glitch.
+It took some time, but, by the first decade of the 21st century the whole software engineering community adopted the term, the metaphor and the idea behind the words, building different strategies and protocols around the **debt-acquisition** and **debt-payment** dynamics, but yet, we're still talking about that, frustrated and uncomfortable with the whole thing, and THERE is were I stopped and detected a glitch.
 
 ## The Mind Glitch
 
@@ -39,9 +39,19 @@ And it wasn't Ward's fault, it was ours, we individually, introduced the signifi
 
 ## The Mind Shift
 
-The first thing you have to do when you feel lost is to calm down and look around to find some references. Going back to the "industry" and "not-quite-right" we can find some "intersections".  
-Other industries produce "not-quite-right" stuff along with "the-right-one" and the term is **industrial waste**; it can be environmentally friendly,recyclable, sellable, lightly toxic or extremely poisonous and radioactive but they all generate some kind of sub-product during the manufacturing process and they all had to learn to deal with it by law in most cases.  
-At this point it becomes crystal clear that **the natural sub-product of the software industry IS TECH-DEBT**. The TTM has mutated from a per-year basis to a per-sprint; the technology also evolves at a thrilling pace; all this means that we're producing an incredible amount of waste, blame the market, the managers, the FOMO related to the tech trends, but even if I produce the best code today, tomorrow it might be legacy/incorrect/deprecated and that's for the green field only, we're not even including existing legacy code in the equation.
+The first thing you have to do when you feel lost is to calm down and look around to find some references. Going back to the "industry" and "not-quite-right" we can find some "intersections".
+
+![Timber](assets/timber.png)
+*Photo by [Alexander Andrews](https://unsplash.com/photos/c91LS-JK7cw) on [Unsplash](https://unsplash.com/)*
+
+Every industries produce "not-quite-right" stuff along with "the-right-one" and the term is **industrial waste**; it can be environmentally friendly, recyclable, sellable, lightly toxic or extremely poisonous and radioactive but they all generate some kind of sub-product during the manufacturing process and they all had to learn to deal with it by law in most cases.  
+
+![Mining](assets/mining.png)
+*Photo by [Michal Pech](https://unsplash.com/photos/xS5bOLKCSLw) on [Unsplash](https://unsplash.com/)*
+
+At this point it becomes crystal clear that **the natural sub-product of the software industry IS TECH-DEBT**.  
+
+The TTM has mutated from a per-year basis to a per-sprint; the technology also evolves at a thrilling pace; all this means that we're producing an incredible amount of waste, blame the market, the managers, the FOMO related to the tech trends, but even if I produce the best code today, tomorrow it might be legacy/incorrect/deprecated and that's just for the green field; we're not even including existing legacy code in the equation.
 
 Our work permeates almost everything around us, from the most trivial mobile app and up to medical devices, transportation and aerospace industries; this is a huge responsibility, so being systematic and thoughtful on how we prepare our work to be easy to maintain and fix will make the difference between a bad day and a life.
 
@@ -66,6 +76,8 @@ And by intentional I mean to do something about it every day through a strict pl
   - [7. Prevention](#7-prevention)
   - [8. Audit](#8-audit)
   - [9. R&D](#9-rd)
+
+![Operational Cycle](assets/operational_cycle.png)
 
 ### Preparation
 
@@ -109,7 +121,7 @@ And here's where **all the previous work collapse into a concrete code** action 
 
 Also here, **metrics** can be extremely useful, how much code needed to be refactored, fixed, deprecated? why? was it old or a recently created code?
 
-### Strategic cycle
+![Strategic Cycle](assets/strategic_cycle.png)
 
 #### 7. Prevention
 
@@ -129,3 +141,8 @@ The auditing activity is **interrelated** with the [Preparation](#preparation) a
 - Can this be abstracted as a standard?
 
 The R&D activity affects both the [Preparation](#preparation) and the [Execution](#execution) areas of the life-cycle.
+
+## Closing notes
+
+A lot of work is still required, each principle should be refined along with the concrete tasks, but the high level definition is clear.  
+Bug fixing and security are commonly related to tech-debt but that's not sine qua non condition, having separated backlogs or tags for bug fixing, security and technical debt is a good idea and the more data-centric and granular the backlog is, the easier to analyze the data will be.
