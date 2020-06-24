@@ -153,8 +153,18 @@ The auditing activity is **interrelated** with the [Preparation](#preparation) a
 
 The R&D activity affects both the [Preparation](#preparation) and the [Execution](#execution) areas of the life-cycle.
 
-## Closing notes
+## TL;DR
+
+- Tech-debt is not a bad thing "per se", **the bad thing is the "un" factor**
+  - Un-known
+  - Un-wanted
+  - Un-tracked
+  - Un-intentional
+  - Un-planned
+  - Un-handled
+- **Bug fixing and security are commonly related to tech-debt** but that's **not a "sine qua non" condition**, having separated backlogs or tags for bug fixing, security and technical debt is a good idea and the more data-oriented and granular the backlog is, the easier to analyze the data will be.
+- **The plan can be applied retrospectively** with great benefits, start analyzing, tagging and organizing your old backlog thinking about tech-debt and crunch some numbers, you'll be surprised.
+
+### Closing notes
 
 A lot of work is still required, each principle should be refined along with the concrete tasks, but the high level definition is clear.  
-
-**Bug fixing and security are commonly related to tech-debt but that's not a "sine qua non" condition**, having separated backlogs or tags for bug fixing, security and technical debt is a good idea and the more data-oriented and granular the backlog is, the easier to analyze the data will be.
