@@ -17,7 +17,7 @@ Let's start with some history first.
 
 ## The "discovery"
 
-It's hard to talk in terms of "world wide software industry" before the early 90's if we consider "industry" as a production system for a large [consumer base](https://en.wikipedia.org/wiki/Customer_base) (**Microsoft Windows** was released on [November, 1985](https://en.wikipedia.org/wiki/Microsoft#1985%E2%80%931994:_Windows_and_Office) and **Classic Mac OS** in [January, 1984](https://en.wikipedia.org/wiki/Classic_Mac_OS)) but still, at that time, a lot of amazing high-level programming languages like COBOL or Fortran were already there––for decades––and many genius minds were around and thinking how to make things better; and they already had a clear understanding of the consequences of producing **"not-quite-right-code"**.
+It's hard to talk in terms of "world wide software industry" before the early 90's if we consider "industry" as a production system for a large [consumer base](https://en.wikipedia.org/wiki/Customer_base) (**Microsoft Windows** was released on [November, 1985](https://en.wikipedia.org/wiki/Microsoft#1985%E2%80%931994:_Windows_and_Office) and **Classic Mac OS** in [January, 1984](https://en.wikipedia.org/wiki/Classic_Mac_OS)) but still, at that time, a lot of amazing high-level programming languages like COBOL or Fortran were already there—for decades—and many genius minds were around and thinking how to make things better; and they already had a clear understanding of the consequences of producing **"not-quite-right-code"**.
 
 ## The Metaphor
 
@@ -89,9 +89,9 @@ Every output here should be designed to iteratively improve the [execution](#exe
 
 #### 1. Analysis
 
-**Code Analysis** can be done manually, through developer tools or through automated tools, but all existing code––old or new––should be analyzed. An iterative process must be defined and followed by every team and the output captured in a backlog.
+**Code Analysis** can be done manually, through developer tools or through automated tools, but all existing code—old or new—should be analyzed. An iterative process must be defined and followed by every team and the output captured in a backlog.
 
-**Metrics** will be highly affected by the development process and the technologies involved, but metrics are the key to understand the big picture in many ways, e.g.––at a high level––if you divide `(total commits / bug-fix commits) * 100` you'll obtain a defect commit rate percentage. Many insightful numbers can be obtained through metrics, but of course, to have metrics you have to generate them somehow. If you're not sure about what to measure, just start measuring something, the ideas may come together with the numbers.
+**Metrics** will be highly affected by the development process and the technologies involved, but metrics are the key to understand the big picture in many ways, e.g.—at a high level—if you divide `(total commits / bug-fix commits) * 100` you'll obtain a defect commit rate percentage. Many insightful numbers can be obtained through metrics, but of course, to have metrics you have to generate them somehow. If you're not sure about what to measure, just start measuring something, the ideas may come together with the numbers.
 
 #### 2. Knowledge Base
 
@@ -121,7 +121,7 @@ Here's where your **sprint/quarter planning** shines, you have the analysis, the
 
 #### 6. Processing
 
-And here's where **all the previous work collapses into a concrete code** action by being recycled––if useful for other purposes––refactored, fixed, deprecated or disposed, and **annotations get added for the next cycle**.
+And here's where **all the previous work collapses into a concrete code** action by being recycled—if useful for other purposes—refactored, fixed, deprecated or disposed, and **annotations get added for the next cycle**.
 
 Also here, **metrics** can be extremely useful. How much code needed to be refactored, fixed or deprecated? Why? Was it old or a recently created code?
 
